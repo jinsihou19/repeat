@@ -1,0 +1,31 @@
+{
+  "name": "repeat",
+  "version": "0.0.1",
+  "description": "simple repeat task for nodejs.",
+  "main": "./lib/main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jinsihou19/repeat"
+  },
+  "keywords": [
+    "repeat"
+  ],
+  "author": "Henry",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "mocha": "^5.1.1",
+    "should": "^13.2.1",
+    "sinon": "^5.0.6"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "invariant": "^2.2.4",
+    "lodash.isplainobject": "^4.0.6"
+  }
+}
